@@ -1,0 +1,20 @@
+logo: man/figures/JMbdirectlogo.png
+
+home:
+  title: JMbdirect
+  sidebar:
+    structure:
+      - "README"
+      - "Reference"
+
+  links:
+    - text: View on CRAN
+      href: https://cran.r-project.org/package=JMbdirect
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: cosmo
+
+authors:
+  sidebar: TRUE
