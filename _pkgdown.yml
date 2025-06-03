@@ -1,12 +1,7 @@
-logo: man/figures/JMbdirectlogo.png
+logo: man/figures/JMbdirect_logo.png
 
 home:
   title: JMbdirect
-  sidebar:
-    structure:
-      - "README"
-      - "Reference"
-
   links:
     - text: View on CRAN
       href: https://cran.r-project.org/package=JMbdirect
@@ -14,7 +9,8 @@ home:
 template:
   bootstrap: 5
   params:
-    bootswatch: cosmo
+    bootswatch: slate
 
 authors:
-  sidebar: TRUE
+  sidebar:
+    roles: [aut, cre, ctb]
